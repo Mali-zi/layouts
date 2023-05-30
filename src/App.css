@@ -70,3 +70,26 @@ body {
   text-align: right;
   margin-bottom: 20px;
 }
+
+
+.item-btn {
+  border-radius: 20px;
+  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.list-row {
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 5px;
+}
+.item-title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.item-img {
+  height: 100px;
+}
