@@ -17,7 +17,7 @@ function Store({ products }) {
       <Row>
         <IconSwitch icon={icon} onSwitch={onSwitch} />
       </Row>
-      {icon === 'view_module' ? <CardsView cards={products}/> : <ListView items={products} />}
+      {icon === 'view_list' ? <CardsView cards={products}/> : <ListView items={products} />}
     </Container>
   )
 }

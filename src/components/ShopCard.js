@@ -13,8 +13,8 @@ function ShopCard({ name, price, color, img }) {
     >
     <Card.Body className='card-body'>
       <div>
-        <Card.Img variant="center" className='img-fluid' class="card-img" src={img} alt={name} />
-        <div class="card-img-overlay">
+        <Card.Img variant="center" className="img-fluid card-img" src={img} alt={name} />
+        <div className="card-img-overlay">
           <Card.Title className='card-title'>{name}</Card.Title>
           <Card.Subtitle className='card-subtitle'>{color}</Card.Subtitle>
           <div className='card-bottom'>

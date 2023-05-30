@@ -18,9 +18,9 @@ function ListView({ items }) {
     )
   });
   return (
-    <div>
+    <Row>
       {itemList}
-    </div>
+    </Row>
   )
 };
 
