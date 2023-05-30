@@ -4,4 +4,4 @@
 
 <img width="900" alt="card-screenshot" src="https://github.com/Mali-zi/filter/blob/master/img/screenshot_portfolio.JPG">
 
-<img width="900" alt="list-screenshot" src="https://github.com/Mali-zi/filter/blob/master/img/screenshot_portfolio.JPG">
+<img width="900" alt="list-screenshot" src="https://github.com/Mali-zi/layouts/blob/master/img/card-screenshot.JPG">
