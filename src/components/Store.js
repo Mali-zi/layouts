@@ -2,6 +2,8 @@ import { useState } from "react";
 import IconSwitch from "./IconSwitch";
 import CardsView from './CardsView';
 import ListView from './ListView';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function Store({ products }) {
 
@@ -11,10 +13,12 @@ function Store({ products }) {
   };
 
   return (
-    <div>
-      <IconSwitch icon={icon} onSwitch={onSwitch} />
+    <Container fluid="md">
+      <Row>
+        <IconSwitch icon={icon} onSwitch={onSwitch} />
+      </Row>
       {icon === 'view_module' ? <CardsView cards={products}/> : <ListView items={products} />}
-    </div>
+    </Container>
   )
 }
 

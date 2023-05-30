@@ -1,6 +1,6 @@
 function IconSwitch({ icon, onSwitch }) {
   return (
-    <div onClick={onSwitch}>
+    <div role="button" className="onSwitch" onClick={onSwitch}>
       <span className="material-icons">
         {icon}
       </span>

@@ -1,3 +1,7 @@
+body {
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -21,4 +25,51 @@
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.shop-card {
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  box-shadow: -1px 5px 13px 0px rgba(0,0,0,0.3);
+}
+
+.card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-price {
+  display: inline;
+  color: var(--bs-red);
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 20px;
+
+}
+
+.card-btn {
+  display: inline;
+  float: right;
+  border-radius: 20px;
+  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+.card-bottom {
+  position: absolute;
+  bottom: 10px;
+  vertical-align: top;
+}
+
+.onSwitch {
+  text-align: right;
+  margin-bottom: 20px;
 }
